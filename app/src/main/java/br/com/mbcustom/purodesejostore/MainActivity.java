@@ -31,7 +31,6 @@ public class MainActivity extends AppCompatActivity {
 
     private ImageView mImagem1, mImagem2, mImagem3;
 
-    private String teste;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate( savedInstanceState );
