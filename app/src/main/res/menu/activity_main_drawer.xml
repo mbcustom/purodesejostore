@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/nav_favorito"
+            android:icon="@drawable/ic_menu_favorito"
+            android:title="@string/menu_favorito" />
+        <item
+            android:id="@+id/nav_acessorios"
+            android:icon="@drawable/acessorios"
+            android:title="@string/menu_acessorios" />
+        <item
+            android:id="@+id/nav_beijaveis"
+            android:icon="@drawable/beijaveis"
+            android:title="@string/menu_beijaveis" />
+        <item
+            android:id="@+id/nav_bolinhas"
+            android:icon="@drawable/bolinhas"
+            android:title="@string/menu_bolinhas" />
+        <item
+            android:id="@+id/nav_excitantes"
+            android:icon="@drawable/excitantes"
+            android:title="@string/menu_excitantes" />
+        <item
+            android:id="@+id/nav_fantasias"
+            android:icon="@drawable/fantasia"
+            android:title="@string/menu_fantasias" />
+        <item
+            android:id="@+id/nav_kits"
+            android:icon="@drawable/kits"
+            android:title="@string/menu_kit" />
+        <item
+            android:id="@+id/nav_lubrificantes"
+            android:icon="@drawable/lubrificantes"
+            android:title="@string/menu_lubrificante" />
+        <item
+            android:id="@+id/nav_massagem"
+            android:icon="@drawable/massagem"
+            android:title="@string/menu_massagem" />
+        <item
+            android:id="@+id/nav_sabonetes"
+            android:icon="@drawable/sabonetes"
+            android:title="@string/menu_sabonetes" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_close_black_24dp"
+            android:title="@string/menu_logout" />
+
+
+    </group>
+</menu>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Puro Desejo</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="action_AZ">Ordenar A -> Z</string>
+    <string name="action_ZA">Ordenar Z -> A</string>
+    <string name="action_PrecoMenor_Maior">Preço Menor -> Maior</string>
+    <string name="action_PrecoMaior_Menor">Preço Maior -> Menor</string>
+    <string name="action_Favorito">Favorito</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_favorito">Favoritos</string>
+    <string name="menu_acessorios">Acessórios</string>
+    <string name="menu_bolinhas">Bolinhas</string>
+    <string name="menu_beijaveis">Beijáveis</string>
+    <string name="menu_excitantes">Excitantes</string>
+    <string name="menu_fantasias">Fantasias</string>
+    <string name="menu_kit">Kits</string>
+    <string name="menu_lubrificante">Lubrificantes</string>
+    <string name="menu_massagem">Massagem</string>
+    <string name="menu_sabonetes">Sabonetes</string>
+    <string name="menu_logout">Sair</string>
+
+    <string name="home_second">Home Second</string>
+
+    <string name="play_console_licence">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhLgf94J54fI2de0B1Lf/56lNodK3kpBjc3R4bkZFbF8a7MtN89/ZsCRCOZOohkiOPdBzPrM/UPr74C2h00NmCpedV9331zbybqUmEnCBRqV0bEFNnMmRJnzVJwN26PI959KXLtKvrYBdVJ0jsFWWNM3p4gLIK/qecbXb3IdHJO9kQ4SD6hhyW8OMXpdncn8hDNZNkPNdkXw+s77+u76G8oDuCp1+Z3jHFbh7zoq4Fks5IPpyqLntFT6oCJYm/1xvO4b8jXfS5wdYVnThrIfv7PPvSftPk7yVUktXMAYcirxowWiwGAWWPqfDrxMDY5R4pS3sGh3IMVCVQMYo6I685QIDAQAB</string>
+    <string name="product_id">test_subscription</string>
+</resources>

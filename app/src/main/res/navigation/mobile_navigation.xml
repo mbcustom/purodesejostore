@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="br.com.mbcustom.purodesejostore.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_HomeFragment_to_HomeSecondFragment"
+            app:destination="@id/nav_home_second" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_home_second"
+        android:name="br.com.mbcustom.purodesejostore.ui.home.HomeSecondFragment"
+        android:label="@string/home_second"
+        tools:layout="@layout/fragment_home_second">
+        <action
+            android:id="@+id/action_HomeSecondFragment_to_HomeFragment"
+            app:destination="@id/nav_home" />
+
+        <argument
+            android:name="myArg"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_lubrificantes"
+        android:name="br.com.mbcustom.purodesejostore.ui.lubrificantes.LubrificantesFragment"
+        android:label="@string/menu_lubrificante"
+        tools:layout="@layout/fragment_lubrificantes" />
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="br.com.mbcustom.purodesejostore.ui.logout.LogoutFragment"
+        android:label="@string/menu_logout"
+        tools:layout="@layout/fragment_logout" />
+    <fragment
+        android:id="@+id/nav_sabonetes"
+        android:name="br.com.mbcustom.purodesejostore.ui.sabonetes.SabonetesFragment"
+        android:label= "@string/menu_sabonetes"
+        tools:layout="@layout/fragment_sabonetes" />
+
+    <fragment
+        android:id="@+id/nav_bolinhas"
+        android:name="br.com.mbcustom.purodesejostore.ui.bolinhas.BolinhasFragment"
+        android:label="@string/menu_bolinhas"
+        tools:layout="@layout/fragment_bolinhas" />
+
+    <fragment
+        android:id="@+id/nav_favorito"
+        android:name="br.com.mbcustom.purodesejostore.ui.favoritos.FavoritosFragment"
+        android:label="@string/menu_favorito"
+        tools:layout="@layout/fragment_favoritos" />
+
+    <fragment
+        android:id="@+id/nav_excitantes"
+        android:name="br.com.mbcustom.purodesejostore.ui.excitantes.ExcitantesFragment"
+        android:label="@string/menu_excitantes"
+        tools:layout="@layout/fragment_excitantes" />
+
+    <fragment
+        android:id="@+id/nav_beijaveis"
+        android:name="br.com.mbcustom.purodesejostore.ui.beijaveis.BeijaveisFragment"
+        android:label="@string/menu_beijaveis"
+        tools:layout="@layout/fragment_beijaveis" />
+
+    <fragment
+        android:id="@+id/nav_massagem"
+        android:name="br.com.mbcustom.purodesejostore.ui.massagem.MassagemFragment"
+        android:label="@string/menu_massagem"
+        tools:layout="@layout/fragment_massagem" />
+
+    <fragment
+        android:id="@+id/nav_acessorios"
+        android:name="br.com.mbcustom.purodesejostore.ui.acessorios.AcessoriosFragment"
+        android:label="@string/menu_acessorios"
+        tools:layout="@layout/fragment_acessorios" />
+
+    <fragment
+        android:id="@+id/nav_fantasias"
+        android:name="br.com.mbcustom.purodesejostore.ui.fantasias.FantasiasFragment"
+        android:label="@string/menu_fantasias"
+        tools:layout="@layout/fragment_fantasias" />
+
+    <fragment
+        android:id="@+id/nav_kits"
+        android:name="br.com.mbcustom.purodesejostore.ui.kits.KitsFragment"
+        android:label="@string/menu_kit"
+        tools:layout="@layout/fragment_kits" />
+
+
+
+</navigation>
